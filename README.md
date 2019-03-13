@@ -8,11 +8,11 @@ automobile valuation tool
   method: POST
   
   required parameters: 
-    value:      num
-    make:       str
-    model:      str
-    age:        num
-    mileage:    num
+    - value:      num
+    - make:       str
+    - model:      str
+    - age:        num
+    - mileage:    num
   
   non-required parameters:
     collisions: num
