@@ -19,8 +19,10 @@ automobile valuation tool
     owners:     num
 
   expected response:
-    statuscode: 200
-    response:   { "valuation": ~valuation~ }
+  
+    Success
+      status code: 200
+      response:    { "valuation": ~valuation~ }
     
   error cases:
     
