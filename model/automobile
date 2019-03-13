@@ -1,0 +1,16 @@
+
+class Automobile {
+
+  constructor(value, make, model, age, mileage, owners, collisions) {
+    this.value = value;
+    this.make = make;
+    this.model = model;
+    this.age = age;
+    this.mileage = mileage;
+    this.owners = owners ? owners : 0;
+    this.collisions = collisions ? collisions : 0;
+  }
+
+}
+
+module.exports = Automobile;
