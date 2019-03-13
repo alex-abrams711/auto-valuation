@@ -34,4 +34,9 @@ automobile valuation tool
       status code: 400
       response:    { "errorMessage": "Error: Invalid Parameters" }
       
+# running the application
+
+npm install
+
+npm run start
       
